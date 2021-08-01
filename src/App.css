@@ -1,0 +1,90 @@
+body , html {
+    margin: 0px;
+    animation: fade 1s;
+    background-color: #f8f8f8;
+}
+.App{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    justify-items: center;
+    width: 100%;
+    height: 800px;
+    background-color: transparent;
+    
+}
+.sideBar{
+    gap: 15%;
+    position: fixed;
+    width: 27.71%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    justify-content: center; 
+    font-family: sans-serif;
+}
+
+.lists{display: flex;
+    flex-direction: column;
+    gap: 10px;
+    cursor:pointer;
+    width: 10%;
+    color: grey;
+    letter-spacing: 2px;
+    
+}
+.lists div:hover{
+letter-spacing: 4px;
+transition-duration: .5s;
+
+}
+
+.nawa{
+    height: 20px;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    padding-right: 20px;
+    font-weight: bold;
+}
+.homepic {
+    margin-left: 10%;
+    border-radius: 50in;
+    width: 30%;
+    animation: abcd 5s infinite;
+    border: 8px solid rgba(0,0,0,0.3) ;
+    animation: abcd 5s infinite;
+}
+
+
+@keyframes abcd{
+    0% {
+        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    }
+    
+    50% {
+        border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
+    }
+    100% {
+        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    }
+
+}
+
+.Phome{
+    
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+    display: flex;
+    width: 70%;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: grey;
+}
+
+.copyR{
+    color: black;
+}
