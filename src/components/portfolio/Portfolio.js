@@ -59,7 +59,7 @@ const Portfolio = () => {
         shouldCloseOnEsc={true}
         style={customStyles}
         isOpen={openPic}
-        onRequestClose={() => setOpenPic(false)}>
+        onRequestClose={() => setOpenPic(false)}>   
         <div className="picModal">
           <ImgPopUp getter={getter} />
         </div>

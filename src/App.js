@@ -15,7 +15,9 @@ function App() {
           <p className="nawa"> {Data.naw} </p>
         </div>
 
-        <div className="lists">{listing}</div>
+        <div className="lists">
+          {listing}
+        </div>
 
         <div>
           <p>{Data.copyRight}</p>
